@@ -1,4 +1,28 @@
-.box {
-  border-radius: 10px;
+.success, .error {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success {
+  border-color: green;
+}
+
+.error {
+  border-color: red;
+}
+
+.message-tset, .success-test, .error-test {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success-test {
+  border-color: green;
+}
+
+.error-test {
+  border-color: red;
 }
 /*# sourceMappingURL=my.css.map */

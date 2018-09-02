@@ -1,10 +1,31 @@
-@mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-      -ms-border-radius: $radius;
-          border-radius: $radius;
+%message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
 }
 
-.box {
-  @include border-radius(10px);
+.success {
+  @extend %message;
+  border-color: green;
+}
+
+.error {
+  @extend %message;
+  border-color: red;
+}
+
+.message-tset {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success-test {
+  @extend .message-tset;
+  border-color: green;
+}
+
+.error-test {
+  @extend .message-tset;
+  border-color: red;
 }
