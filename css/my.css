@@ -1,8 +1,4 @@
-.span-two {
-  width: 50%;
-}
-
-.span-three {
-  width: 33.33333%;
+.some-selector {
+  display: block;
 }
 /*# sourceMappingURL=my.css.map */

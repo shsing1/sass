@@ -1,11 +1,15 @@
-@function calculate-width ($col-span) {
-  @return 100% / $col-span;
+$boolean: true !default;
+@mixin simple-mixin {
+   @if $boolean {
+       @debug "$boolean is #{$boolean}";
+       display: block;
+   }
+   @else {
+       @debug "$boolean is #{$boolean}";
+       display: none;
+   }
 }
 
-.span-two {
-  width: calculate-width(2); // spans 2 columns, width = 50%
-}
-
-.span-three {
-  width: calculate-width(3); // spans 3 columns, width = 33.3%
+.some-selector {
+   @include simple-mixin;
 }
