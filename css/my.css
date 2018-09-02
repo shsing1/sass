@@ -1,19 +1,15 @@
-a {
-  background-color: #fff;
-  color: #ee11ab;
+ul {
+  list-style: none;
 }
 
-.container {
-  width: 100%;
+ul li {
+  display: inline-block;
+  padding: 15px;
 }
 
-article[role="main"] {
-  float: left;
-  width: 62.5%;
-}
-
-aside[role="complementary"] {
-  float: right;
-  width: 31.25%;
+ul li a {
+  color: #444;
+  font-size: 16px;
+  text-decoration: none;
 }
 /*# sourceMappingURL=my.css.map */

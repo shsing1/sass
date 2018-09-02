@@ -1,24 +1,14 @@
-$color-white: #fff;
-$color-pink: #ee11ab;
-$title-font: normal 24px/1.5 'Open Sans', sans-serif;
+ul {
+  list-style: none;
 
-$primary-color: $color-pink;
+  li {
+    display: inline-block;
+    padding: 15px;
 
-a {
-  background-color: $color-white;
-  color: $color-pink;
-}
-
-.container {
-  width: 100%;
-}
-
-article[role="main"] {
-  float: left;
-  width: 600px / 960px * 100%;
-}
-
-aside[role="complementary"] {
-  float: right;
-  width: 300px / 960px * 100%;
+    a {
+      color: #444;
+      font-size: 16px;
+      text-decoration: none;
+    }
+  }
 }
