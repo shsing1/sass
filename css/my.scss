@@ -1,31 +1,11 @@
-%message {
-  border: 1px solid #ccc;
-  padding: 10px;
-  color: #333;
+@function calculate-width ($col-span) {
+  @return 100% / $col-span;
 }
 
-.success {
-  @extend %message;
-  border-color: green;
+.span-two {
+  width: calculate-width(2); // spans 2 columns, width = 50%
 }
 
-.error {
-  @extend %message;
-  border-color: red;
-}
-
-.message-tset {
-  border: 1px solid #ccc;
-  padding: 10px;
-  color: #333;
-}
-
-.success-test {
-  @extend .message-tset;
-  border-color: green;
-}
-
-.error-test {
-  @extend .message-tset;
-  border-color: red;
+.span-three {
+  width: calculate-width(3); // spans 3 columns, width = 33.3%
 }

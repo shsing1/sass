@@ -1,28 +1,8 @@
-.success, .error {
-  border: 1px solid #ccc;
-  padding: 10px;
-  color: #333;
+.span-two {
+  width: 50%;
 }
 
-.success {
-  border-color: green;
-}
-
-.error {
-  border-color: red;
-}
-
-.message-tset, .success-test, .error-test {
-  border: 1px solid #ccc;
-  padding: 10px;
-  color: #333;
-}
-
-.success-test {
-  border-color: green;
-}
-
-.error-test {
-  border-color: red;
+.span-three {
+  width: 33.33333%;
 }
 /*# sourceMappingURL=my.css.map */
