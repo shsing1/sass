@@ -1,14 +1,6 @@
-ul {
-  list-style: none;
+@import 'reset';
 
-  li {
-    display: inline-block;
-    padding: 15px;
-
-    a {
-      color: #444;
-      font-size: 16px;
-      text-decoration: none;
-    }
-  }
+body {
+  background-color: #efefef;
+  font: 100% Helvetica, sans-serif;
 }
