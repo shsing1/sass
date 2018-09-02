@@ -1,0 +1,24 @@
+$color-white: #fff;
+$color-pink: #ee11ab;
+$title-font: normal 24px/1.5 'Open Sans', sans-serif;
+
+$primary-color: $color-pink;
+
+a {
+  background-color: $color-white;
+  color: $color-pink;
+}
+
+.container {
+  width: 100%;
+}
+
+article[role="main"] {
+  float: left;
+  width: 600px / 960px * 100%;
+}
+
+aside[role="complementary"] {
+  float: right;
+  width: 300px / 960px * 100%;
+}
