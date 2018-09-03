@@ -1,4 +1,28 @@
-.some-selector {
-  display: block;
+.for-1 {
+  width: 61px;
+}
+
+.for-2 {
+  width: 62px;
+}
+
+.for-3 {
+  width: 63px;
+}
+
+.for-4 {
+  width: 64px;
+}
+
+.for-test-1 {
+  width: 61px;
+}
+
+.for-test-2 {
+  width: 62px;
+}
+
+.for-test-3 {
+  width: 63px;
 }
 /*# sourceMappingURL=my.css.map */

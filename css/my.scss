@@ -1,15 +1,12 @@
-$boolean: true !default;
-@mixin simple-mixin {
-   @if $boolean {
-       @debug "$boolean is #{$boolean}";
-       display: block;
-   }
-   @else {
-       @debug "$boolean is #{$boolean}";
-       display: none;
+$class-slug: for !default;
+@for $i from 1 through 4 {
+   .#{$class-slug}-#{$i}{
+       width: 60px + $i;
    }
 }
 
-.some-selector {
-   @include simple-mixin;
+@for $i from 1 to 4 {
+   .#{$class-slug}-test-#{$i}{
+       width: 60px + $i;
+   }
 }
