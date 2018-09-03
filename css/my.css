@@ -1,28 +1,20 @@
-.for-1 {
-  width: 61px;
+.author-bio .photo-adam {
+  background: url("/images/avatars/adam.png") no-repeat;
 }
 
-.for-2 {
-  width: 62px;
+.author-bio .photo-john {
+  background: url("/images/avatars/john.png") no-repeat;
 }
 
-.for-3 {
-  width: 63px;
+.author-bio .photo-wynn {
+  background: url("/images/avatars/wynn.png") no-repeat;
 }
 
-.for-4 {
-  width: 64px;
+.author-bio .photo-mason {
+  background: url("/images/avatars/mason.png") no-repeat;
 }
 
-.for-test-1 {
-  width: 61px;
-}
-
-.for-test-2 {
-  width: 62px;
-}
-
-.for-test-3 {
-  width: 63px;
+.author-bio .photo-kuroir {
+  background: url("/images/avatars/kuroir.png") no-repeat;
 }
 /*# sourceMappingURL=my.css.map */

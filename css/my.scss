@@ -1,12 +1,12 @@
-$class-slug: for !default;
-@for $i from 1 through 4 {
-   .#{$class-slug}-#{$i}{
-       width: 60px + $i;
+$list: adam john wynn mason kuroir;
+@mixin author-images {
+   @each $author in $list {
+       .photo-#{$author} {
+           background: url("/images/avatars/#{$author}.png") no-repeat;
+       }
    }
 }
 
-@for $i from 1 to 4 {
-   .#{$class-slug}-test-#{$i}{
-       width: 60px + $i;
-   }
+.author-bio {
+   @include author-images;
 }
