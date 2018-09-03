@@ -1,12 +1,9 @@
-$list: adam john wynn mason kuroir;
-@mixin author-images {
-   @each $author in $list {
-       .photo-#{$author} {
-           background: url("/images/avatars/#{$author}.png") no-repeat;
-       }
-   }
-}
+$types: 4;
+$type-width: 20px;
 
-.author-bio {
-   @include author-images;
+@while $types > 0 {
+   .while-#{$types} {
+       width: $type-width + $types;
+   }
+   $types: $types - 1;
 }
